@@ -1,0 +1,2 @@
+SELECT course.name, teachers.name FROM course JOIN teachers ON course.teacher_id=teachers.id;
+SELECT teacher_id, count(*) FROM course GROUP BY teacher_id;
